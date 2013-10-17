@@ -21,6 +21,8 @@
 		7ADC266D18101D3700A4E014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADC264F18101D3600A4E014 /* UIKit.framework */; };
 		7ADC267518101D3700A4E014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ADC267318101D3700A4E014 /* InfoPlist.strings */; };
 		7ADC267718101D3700A4E014 /* ipad_waveformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC267618101D3700A4E014 /* ipad_waveformTests.m */; };
+		7ADC268218101D4500A4E014 /* TDTAudioWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC268118101D4500A4E014 /* TDTAudioWaveView.m */; };
+		7ADC268518101D7500A4E014 /* LBWaveForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC268418101D7500A4E014 /* LBWaveForm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7ADC267218101D3700A4E014 /* ipad-waveformTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ipad-waveformTests-Info.plist"; sourceTree = "<group>"; };
 		7ADC267418101D3700A4E014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ADC267618101D3700A4E014 /* ipad_waveformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipad_waveformTests.m; sourceTree = "<group>"; };
+		7ADC268018101D4500A4E014 /* TDTAudioWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTAudioWaveView.h; sourceTree = "<group>"; };
+		7ADC268118101D4500A4E014 /* TDTAudioWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTAudioWaveView.m; sourceTree = "<group>"; };
+		7ADC268318101D7500A4E014 /* LBWaveForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBWaveForm.h; sourceTree = "<group>"; };
+		7ADC268418101D7500A4E014 /* LBWaveForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBWaveForm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		7ADC265118101D3600A4E014 /* ipad-waveform */ = {
 			isa = PBXGroup;
 			children = (
+				7ADC268018101D4500A4E014 /* TDTAudioWaveView.h */,
+				7ADC268118101D4500A4E014 /* TDTAudioWaveView.m */,
+				7ADC268318101D7500A4E014 /* LBWaveForm.h */,
+				7ADC268418101D7500A4E014 /* LBWaveForm.m */,
 				7ADC265A18101D3600A4E014 /* LBAppDelegate.h */,
 				7ADC265B18101D3600A4E014 /* LBAppDelegate.m */,
 				7ADC265D18101D3600A4E014 /* Main.storyboard */,
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADC268518101D7500A4E014 /* LBWaveForm.m in Sources */,
 				7ADC265C18101D3600A4E014 /* LBAppDelegate.m in Sources */,
+				7ADC268218101D4500A4E014 /* TDTAudioWaveView.m in Sources */,
 				7ADC265818101D3600A4E014 /* main.m in Sources */,
 				7ADC266218101D3600A4E014 /* LBViewController.m in Sources */,
 			);

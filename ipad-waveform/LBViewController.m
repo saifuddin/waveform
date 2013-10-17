@@ -7,6 +7,7 @@
 //
 
 #import "LBViewController.h"
+#import "LBWaveForm.h"
 
 @interface LBViewController ()
 
@@ -16,8 +17,11 @@
 
 - (void)viewDidLoad
 {
+    LBWaveForm *waveForm = [[LBWaveForm alloc] initWithFrame:CGRectMake(0, 0.3*self.view.frame.size.height, self.view.frame.size.width, 200)];
+    [self.view addSubview:waveForm];
+    [waveForm animateWave];
+
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
